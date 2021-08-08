@@ -103,7 +103,7 @@ char c_test[] = "pasadena city college";
 string cpp_test = "pasadena city college";
 </pre>
 
-## Lab 4.2
+## Lab 4.2 (did not finish)
 You are given a C++ string consisting of any lowercase alphanumeric characters ('a'-'z', '0'-'9') of length L > 2 
 (where L is even). One of the characters occurs L/2 number of times. The other characters are all different. For 
 this problem, do not use any existing find or search string functions, otherwise you receive no extra point. Write a 
