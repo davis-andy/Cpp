@@ -44,6 +44,13 @@ int main() {
 }
 </pre>
 
+_**CONSTRAINTS/ASSUMPTIONS**_:
+
+* All input are assumed to be positive, integral numbers, within the computer acceptable integral limit
+* Your output for Canadian currency should be correct to exactly TWO (2) decimal places, e.g., not $1.170400 but $1.17
+* You will use the same USD-Canadian Dollar exchange rate (1 to 1.33) from your Assignment #1
+* For simplicity you may use the plural nouns for the currency units even if the unit is singular. Example: '1 pennies' is acceptable in your output.
+
 ## Homework 2.2
 This problem is the reverse of (1) above with a small twist. Write a console application that takes the user's numeric input values for the following. You may write all of your code inside main(); no additional function is needed:
 
@@ -54,6 +61,27 @@ This problem is the reverse of (1) above with a small twist. Write a console app
 * number of pennies
 
 And outputs the following:
+
+<pre>
+Enter half dollars: <b>23</b>
+
+Enter quarters: <b>4</b>
+
+Enter dimes: <b>26</b>
+
+Enter nickels: <b>2</b>
+
+Enter pennies: <b>6</b>
+
+The value of your 61 coins is equivalent to 1526 pennies, or $15.26 USD
+</pre>
+
+_**CONSTRAINTS/ASSUMPTIONS**_:
+
+* All input are assumed to be positive, integral numbers, within the computer acceptable integral limit
+* Your output for USD should be correct to exactly TWO (2) decimal places, e.g., not $15 but $15.26 in the above example output
+* Your available US currency units are: half dollars, quarters, dimes, nickels, and pennies.
+* For simplicity you may use the plural nouns for the currency units even if the unit is singular. Example: '1 pennies' is acceptable in your output.
 
 ## Lab 1
 * Get your IDE (Integrated Development Environment) to work on a sample program on your computer (or any public computer).
