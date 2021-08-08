@@ -7,6 +7,14 @@ For example, 123 pennies translates to 1 dollar, 2 dimes and 3 pennies. Addition
 
 Your homework assignment is to write a simple console application that takes a user's numeric "pennies" input and returns a string output (using the USD units of currency).
 
+### Example Console Output
+<pre>
+Please enter all of your pennies:
+<b>8888</b>
+In US currency you have: 88 dollars, 3 quarters, 1 dime, 0 nickels, and 3 pennies.
+In Canadian currency you have: 118.210400 dollars.
+</pre>
+
 ## Ch02-02
 1. Write Python statements that declare the following variables: **firstName** of type string and **studyHours** of type float.  Prompt and input a string into **firstName** and a float value into **studyHours**.
 
