@@ -44,6 +44,17 @@ int main() {
 }
 </pre>
 
+## Homework 2.2
+This problem is the reverse of (1) above with a small twist. Write a console application that takes the user's numeric input values for the following. You may write all of your code inside main(); no additional function is needed:
+
+* number of half dollars (NOT DOLLARS)
+* number of quarters
+* number of dimes
+* number of nickels
+* number of pennies
+
+And outputs the following:
+
 ## Lab 1
 * Get your IDE (Integrated Development Environment) to work on a sample program on your computer (or any public computer).
 * Create your first "Hello World" program, and compile it in the IDE. Please reference Chapter 2 in your textbook for instructions
