@@ -93,8 +93,7 @@ is nothing left to be removed. Function return "D".
 * Function returns the non-reducible string. 
 * If the reduced string is empty, function returns the string "Empty".
 
-## Lab 4
-PROBLEM 1
+## Lab 4.1 (not attempted)
 For the following C-String and C++ String print their individual characters one at a time to screen. Note for a 
 C-style string you may use strlen() to get the length of string; for a C++ style string you may invoke length() or 
 size() on the string itself to get its length.
@@ -104,7 +103,7 @@ char c_test[] = "pasadena city college";
 string cpp_test = "pasadena city college";
 </pre>
 
-PROBLEM 2
+## Lab 4.2
 You are given a C++ string consisting of any lowercase alphanumeric characters ('a'-'z', '0'-'9') of length L > 2 
 (where L is even). One of the characters occurs L/2 number of times. The other characters are all different. For 
 this problem, do not use any existing find or search string functions, otherwise you receive no extra point. Write a 
