@@ -51,7 +51,6 @@ output: 0 // (because -234 is not a palindrome)
 * Your input can be either positive or negative
 * Negative number is not palindromic
 * 0 is a palindrome, so is any single positive digit (2, 3, ... , 9)
-* Failure to follow the exact function signature will receive -1 point
 
 ## Homework 4.2
 Write a de-duplication function that iteratively sanitizes (removes) all consecutive duplicates in a C++ 
@@ -64,7 +63,7 @@ the string becomes empty (in which the function returns "Empty" back to the user
 string deduplicate(string input)
 </pre>
 
-Your main() may look like the following, or anything you prefer to put in it as it is not graded:
+Your main() may look like the following, or anything you prefer to put in it:
 
 <pre>
 int main() {
