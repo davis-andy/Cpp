@@ -60,3 +60,21 @@ int main() {
     getMaxProfit(prices);
     return 0;
 }
+
+
+'''
+TEST FAILED - 
+INPUT: [9999999,999999,1,11111,2333,23333,2333,575,85,2,4,7,888868] 
+YOUR OUTPUT: [0] 
+EXPECTED: [888867]
+
+TEST FAILED - 
+INPUT: [32,78,1] 
+YOUR OUTPUT: [0] 
+EXPECTED: [46] 
+
+TEST FAILED - 
+INPUT: [33,83,14,12,11,10,9,8,7,1] 
+YOUR OUTPUT: [0] 
+EXPECTED: [50]
+'''
