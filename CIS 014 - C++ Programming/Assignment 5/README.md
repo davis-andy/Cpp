@@ -122,10 +122,7 @@ secret message is "" since there are no words in the input sentence)
 * There may be multiple spaces between words.
 * A sentence may consist of only spaces
 * If there is no secret message to be generated, the function returns ""
-* Failure to follow the same exact function signature receives -1 logic point deduction
 * A sentence will contain between 1 and 50 characters
-* Your main() function isn't graded; only the above-referenced function is
-* Failure to follow the same exact function signature receives -1 logic point deduction
 * You can test your function in the following fashion, for example:
 
 <pre>
