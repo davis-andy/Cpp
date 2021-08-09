@@ -1,6 +1,6 @@
 # Homework Assignments 7
 
-## Homework 7.1 (incorrect)
+## Homework 7.1
 Day trading involves buying and subsequently selling financial instruments (e.g. stocks, options, futures, derivatives, 
 currencies) within the same trading day, such that all positions will usually be closed before the market close of the 
 trading day. Depending on one's trading strategy, it may range from several to hundreds of orders a day.
