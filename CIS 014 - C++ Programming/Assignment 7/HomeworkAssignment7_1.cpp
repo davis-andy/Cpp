@@ -28,30 +28,22 @@ using namespace std;
 
 int getMaxProfit(vector<int> &prices)
 {
-    int maxNum = 0;
-    int minNum = prices[0];
-    int pointMax = 0;
-    int pointMin = 0;
+    int profit = 0;
+    int temp = 0
 
-    for (int i = 0; i < prices.size(); i++)
+    for (int i = prices.size() - 1; i >= 0; i--)
     {
-        if (maxNum < prices[i]) 
+        for (int j = i; j >= 0; j--)
         {
-            maxNum = prices[i];
-            pointMax = i;
+            temp = prices[i] - prices[j];
         }
-        if (minNum > prices[i]) 
+        if (temp > profit) 
         {
-            minNum = prices[i];
-            pointMin = i;
+            profit = temp;
         }
     }
 
-    if (pointMin < pointMax)
-    {
-        return maxNum - minNum;
-    }
-    else return 0;
+    return profit;
 }
 
 
@@ -60,21 +52,3 @@ int main() {
     getMaxProfit(prices);
     return 0;
 }
-
-
-'''
-TEST FAILED - 
-INPUT: [9999999,999999,1,11111,2333,23333,2333,575,85,2,4,7,888868] 
-YOUR OUTPUT: [0] 
-EXPECTED: [888867]
-
-TEST FAILED - 
-INPUT: [32,78,1] 
-YOUR OUTPUT: [0] 
-EXPECTED: [46] 
-
-TEST FAILED - 
-INPUT: [33,83,14,12,11,10,9,8,7,1] 
-YOUR OUTPUT: [0] 
-EXPECTED: [50]
-'''
