@@ -51,7 +51,7 @@ resulting arr[]: {35,36,37,38,39,40,41,42,43,44,45,1,2,3,4,5,6,7,8,9,10,11,12,13
 
 **How to test (example):**
 
-<pre>
+```
 int main() {
    int arr[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14};
    int size = sizeof(arr)/sizeof(arr[0]);
@@ -65,7 +65,7 @@ int main() {
    // completely up to you
    return 0;
 }
-</pre>
+```
 
 <br />
 
@@ -103,9 +103,9 @@ instance 123 is stored as {1, 2, 3} in the vector. 54321 is stored as {5, 4, 3, 
 Write the following function that simulates ++N by taking in its vector representation as the function parameter. The 
 function returns the result of ++N in its vector form:
 
-<pre>
+```
 vector<int> plusPlusN(vector<int> v)
-</pre>
+```
 
 **Examples:**
 
@@ -171,11 +171,12 @@ completely up to you how you handle your return value
 * Your main() function isn't graded; only the above referenced function is.
 * Failure to follow the same exact function signature receives -1 logic point deduction
 * You may have your test code in main(). The following is just an example using v = {9, 9}:
-<pre>
+
+```
 int main() {
     vector<int> v {9, 9};
     vector <int> retVal = plusPlusN(v); // retVal = {1, 0, 0}
     // insert you own assert or other test code here
     return 0;
 }
-</pre>
+```
