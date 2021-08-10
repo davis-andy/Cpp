@@ -89,12 +89,12 @@ Returns: 1
 **Constraints and Assumptions:**
 
 * __letterInventory__ contains between 1 and 50 characters inclusive
-* __letterInventory__ doesn't contain space character, ' '
+* __letterInventory__ doesn't contain space character, '&nbsp;&nbsp;&nbsp;'
 * Each character in the __letterInventory__ will be an uppercase letter 'A'-'Z'or a digit '0'-'9'
-* Comparison doesn't include space ' '
+* Comparison doesn't include space '&nbsp;&nbsp;&nbsp;'
 * __addresses__ contains between 1 and 50 elements inclusive
 * Each address contains between 1 and 50 characters inclusive
-* Each character in each address will be an uppercase letter 'A'-'Z'or a digit '0'-'9'or a space ' '
+* Each character in each address will be an uppercase letter 'A'-'Z'or a digit '0'-'9'or a space '&nbsp;&nbsp;&nbsp;'
 
 ## Homework 9.2
 You are given an input C++ string and a dictionary of English words. You are asked to see if the input is consisted 
