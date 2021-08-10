@@ -215,5 +215,4 @@ Explanation: height denomination provided can never reach 9, hence returning 0.
 * lego_height is always integral and >= 1.
 * Your lego supply (of indicated denominations) is unlimited.
 * HINT: this solution calls for Dynamic Programming. Given an integer array, solutions,  where solutions[target_height] 
-* is the total combination at the target height, your answer should be obtained via solutions[target_height - height#1] 
-+ solutions[target_height - height#2] + solutions[target_height - height#3] + ....
+* is the total combination at the target height, your answer should be obtained via solutions[target_height - height#1] + solutions[target_height - height#2] + solutions[target_height - height#3] + ....
