@@ -131,3 +131,20 @@ int main() {
     cout << getTotalWaterAmount(arr6, size6) << endl; //1
     cout << getTotalWaterAmount(arr7, size7) << endl; //13
 }
+
+/*
+TEST FAILED - 
+INPUT: [5,2,1,2,1,5,4,2] 
+YOUR OUTPUT: 0 
+EXPECTED: 14 
+
+TEST FAILED - 
+INPUT: [5,2,5,2,5,5] 
+YOUR OUTPUT: 0 
+EXPECTED: 6 
+
+TEST FAILED - 
+INPUT: [5,2,5,2,5,2,5,2,5] 
+YOUR OUTPUT: 3 
+EXPECTED: 12
+*/
