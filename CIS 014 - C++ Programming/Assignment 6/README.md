@@ -88,7 +88,7 @@ elements to right M times
 * arr[], when passed into the function, is decayed to a pointer that points to the first element of the array which 
 means if you make modification to it in the function the original arr[] in main() will also change
 
-## Homework 6.2 (incorrect)
+## Homework 6.2
 std::vector (available via #include <vector>) is a template class and a C++ construct. Vector is a dynamic array 
 that grows and shrinks dynamically as needed:
 
