@@ -29,8 +29,10 @@ using namespace std;
 
 vector<int> plusPlusN(vector<int> v)
 {
+    // make a temp variable to check against pre-modificaiton
     int temp = v[v.size() - 1];
 
+    // plusplusN the last item in the vector
     if (v[v.size() - 1] == 9)
     {
         v[v.size() - 1] = 0;
@@ -40,10 +42,13 @@ vector<int> plusPlusN(vector<int> v)
         v[v.size() - 1]++;
     }
 
+    // check to see if other items need to be increased by one
     for (int i = v.size() - 2; i >= 0; i--)
     {
+        // only modify those where the previous number was 9 before adding one
         if ((temp == 9) && (v[i + 1] != temp))
         {
+            // make the current value the new temp before adding one
             temp = v[i];
             if (v[i] == 9)
             {
@@ -54,6 +59,7 @@ vector<int> plusPlusN(vector<int> v)
                 v[i]++;
             }
         }
+        // make the current value the new temp
         else
         {
             temp = v[i];
@@ -63,6 +69,7 @@ vector<int> plusPlusN(vector<int> v)
 
     vector<int>::iterator it = v.begin();
 
+    // insert a 1 at the beginning if first element is 0
     if (v[0] == 0)
     {
         v.insert(it, 1);
